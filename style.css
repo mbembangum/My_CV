@@ -1,0 +1,383 @@
+/* Global Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container Layout */
+.container {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Left Profile Section */
+.profile {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 25%;
+    min-width: 250px;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+} 
+
+.profile h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.profile h3 {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.profile p {
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Icons */
+.icons a {
+    font-size: 1.5em;
+    margin: 10px;
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.icons a:hover {
+    color: #005bb5;
+}
+
+/* CV Download Button */
+.cv-btn {
+    color: #0073e6 !important; /* Blue text */
+    text-decoration: none !important; /* No underline by default */
+    font-weight: bold; /* Make it stand out */
+    font-size: 2em !important; /* Increase font size */
+    background: none !important; /* Remove any background */
+    padding: 0 !important; /* Remove padding */
+    border: none !important; /* No border */
+    display: inline; /* Behave like a normal link */
+    margin-top: 5px !important; /* Reduce space between email and CV */
+}
+
+.cv-btn:hover {
+    color: #005bb5 !important; /* Darker blue on hover */
+    text-decoration: underline !important; /* Underline on hover */
+}
+
+
+/* Right Content Section */
+.content {
+    flex: 1.5;
+    flex-grow: 2;
+    margin-left: 30px;
+}
+
+/* Section Styling */
+section {
+    background: white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Text Styling */
+.content p {
+    line-height: 1.2;
+    margin-bottom: 3px;
+}
+
+.about p {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    line-height: 1.1;
+}
+
+.about {
+    padding-bottom: 5px !important;
+}
+
+/* Section Titles */
+h1, h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 8px;
+    /* color: #008E97 !important; */
+    /* color: #9d4a74 !important; */
+    /* color: #af138a !important;  */
+    /* color: #9d9a9b !important; */
+    /* color: #cf9b39 !important;  */
+    /* color: #afaa9f !important;  */
+    color: #c5ad7a !important;
+
+}
+
+/* Interests Section */
+.interests-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 12px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.interests-list li {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    padding: 1px 8px;
+    flex: 0 1 auto;
+}
+
+/* Reduced Spacing */
+.interests p,
+.affiliations p,
+.education p {
+    line-height: 1.2;
+    padding: 2px 0;
+    margin: 0;
+    word-wrap: break-word;
+}
+.interests-list li {
+    line-height: 1.2;
+    padding: 2px 0;
+}
+
+
+
+.affiliations,
+.education {
+    padding-bottom: 10px;
+}
+
+/* Email Styling */
+.email {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 5px !important; /* Reduce space below the email */
+}
+
+/* Publications Section */
+.publications {
+    background: white;
+    padding: 8px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.publications h2 {
+    font-size: 1.2em;
+    color: #0073e6;
+    margin-bottom: 5px;
+}
+
+.publications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.publications ul li {
+    padding: 2px 0;
+    line-height: 1.2;
+}
+
+/* Quote Styling */
+.quote {
+    font-family: "American Typewriter", serif !important;
+    font-size: 0.8em !important;
+    font-style: normal;
+    text-align: center;
+    color: #222;
+    margin-top: 10px;
+    padding: 8px 10px 4px 10px; /* reduced bottom padding */
+    line-height: 1.4 !important;
+    margin-bottom: 0 !important; /* remove extra margin */
+}
+
+.quote-author {
+    font-size: 1.0em !important;
+    font-weight: bold;
+    display: block;
+    margin-top: 2px;
+}
+
+/* Map Styling */
+.map-image {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* CV Button */
+.cv-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #0073e6;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cv-btn:hover {
+    background: #005bb5;
+}
+
+/* GEE Apps Section */
+.gee-apps {
+    background: white;
+    padding: 8px 15px;
+    /* margin-top: -10px; */
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gee-apps h2 {
+    font-size: 1.2em;
+    color: #0073e6;
+    margin-bottom: 5px;
+}
+
+.gee-apps ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.gee-apps li {
+    padding: 2px 0;
+    line-height: 1.2;
+}
+
+.gee-apps li::before {
+    content: none;
+}
+
+/* Standardized Link Styling */
+a {
+    color: #0073e6 !important; /* Blue color */
+    text-decoration: none !important;
+    font-weight: normal;
+}
+
+a:hover {
+    color: #005bb5 !important;
+    text-decoration: underline !important;
+}
+
+/* Prevent visited links from turning purple */
+a:visited {
+    color: #0073e6 !important;
+    text-decoration: none !important;
+}
+
+/* Specific Sections */
+.affiliations a,
+.education a,
+.publications a,
+.gee-apps a {
+    color: #0073e6 !important;
+    font-weight: normal;
+}
+
+.affiliations a:hover,
+.education a:hover,
+.publications a:hover,
+.gee-apps a:hover {
+    color: #005bb5 !important;
+    text-decoration: underline !important;
+}
+
+
+/* Consistent spacing between section titles and first content */
+section > p:first-of-type,
+section > ul:first-of-type {
+    margin-top: 0px;
+}
+
+/* Consistent spacing below last content inside each section */
+section p:last-of-type,
+section ul:last-of-type,
+section li:last-of-type {
+    margin-bottom: 0; /* or 5px for a bit more spacing */
+}
+
+section + section {
+    margin-top: -8px;
+}
+
+
+
+.journey-title {
+    font-family: "American Typewriter", serif;
+    font-size: 1.3em;
+    font-style: normal;
+    text-align: center;
+    /* color: #9d9a9b !important;  */
+    /* color: #cf9b39 !important;  */
+    /* color: #afaa9f !important;  */
+    color: #c5ad7a !important;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: bold !important; /* Make it bold */
+}
+
+
+
+/* Fix alignment of skills section */
+.skills {
+  text-align: left !important;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.skills h2 {
+  text-align: left !important;
+  margin-bottom: 8px;
+}
+
+.skills ul {
+  padding-left: 15px;
+  list-style-type: disc;
+  font-size: 0.9em;
+}
+
+/* Fix alignment of the skills section inside the profile panel */
+.profile .skills {
+  text-align: left;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+.profile .skills h2 {
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.profile .skills ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
