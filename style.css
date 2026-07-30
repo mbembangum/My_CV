@@ -381,3 +381,23 @@ section + section {
   padding-left: 20px;
   list-style-type: disc;
 }
+
+.download-section{
+    margin:20px 0;
+    text-align:center;
+}
+
+.download-btn{
+    display:inline-block;
+    padding:12px 24px;
+    background:#0b6fa4;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.download-btn:hover{
+    background:#084d72;
+}
